@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CardsService } from './services/cards.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Todo_List';
+  constructor(public cardService: CardsService){}
+  Hidden: boolean = false;
+  texto: string = "";
+
+  changeStatus(){    
+    this.Hidden = !this.Hidden;
+  }  
+
+  obtenerValor() {
+    this.cardService.addCard(this.texto);
+    this.texto = "";
+  }
 }
