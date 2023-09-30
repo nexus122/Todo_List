@@ -1,5 +1,7 @@
 # TodoList
 Típica aplicación de Angular para crear una lista de tareas.
+![image](https://github.com/nexus122/Todo_List/assets/22988550/682de57b-fb4e-4993-b683-6848b565f1ad)
+
 
 Permite: 
 - Crear Tareas
