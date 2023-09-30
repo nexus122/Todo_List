@@ -18,3 +18,6 @@ En otra rama:
 - [ ] Mejorar diseño ( Tailwind )
 	- [ ] Que el Textarea sea un borde completo en lugar de faltarle el TOP.
 - [ ] Exportar Lista de Tareas
+- [ ] Soltar Confeti al completar las tareas
+- [ ] Ocultar tareas completadas
+  - [ ] Permitir ver tareas ya completadas
